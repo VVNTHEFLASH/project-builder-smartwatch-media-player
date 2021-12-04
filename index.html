@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch Media Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e10d51bdbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- container grid -->
+    <div class="container">
+        <!-- grid 1 -->
+        <div class="grid-1">
+            <h1>SmartWatch</h1>
+        </div>
+        <!-- grid 2 -->
+        <div class="grid-2">
+            <!-- Watch Face Div -->
+            <div class="watchout">
+                <!-- Watch face IN -->
+                <div class="watchin">
+                    <!-- Mini Time -->
+                    <div class="mini-time">
+                        <label>1:44</label>
+                    </div>
+                    <!-- Time -->
+                    <div class="main-time">
+                        <label>1:44</label>
+                    </div>
+                    <!-- Music Player -->
+                    <div class="music-player">
+                            <!-- Current Music -->
+                        <div class="current-music">
+                            <!-- Music Image & PP -->
+                            <div class="music-img">
+                                <img src="" height="50px" width="50px">
+                            </div>
+                            <!-- Music Details -->
+                            <div class="music-details">
+                                <div>
+                                    <p>
+                                        <strong>Song Name</strong><br>
+                                        <pre>Artist Name</pre>
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-step-backward"></i>
+                                    <input type="range" name="seek" id="seek">
+                                    <i class="fas fa-step-forward"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Music List Grid -->
+                        <div class="list-grid">
+                            <!-- Serial No -->
+                            <div>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </div>
+                            <!-- Name of Music -->
+                            <div>
+                                <li>Song 1</li>
+                                <li>Song 2</li>
+                                <li>Song 3</li>
+                                <li>Song 4</li>
+                                <li>Song 5</li>
+                            </div>
+                            <!-- Est Time -->
+                            <div>
+                                <li>1:01</li>
+                                <li>2:02</li>
+                                <li>3:03</li>
+                                <li>4:04</li>
+                                <li>5:05</li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="icons">
+                        <!-- Chat icon -->
+                        <div class="iSize">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <!-- Music Icon -->
+                        <div class="iSize">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <!-- Clock Icon -->
+                        <div class="iSize">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Link JS -->
+    <script src="musicdata.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
